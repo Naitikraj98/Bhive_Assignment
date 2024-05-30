@@ -1,0 +1,74 @@
+.sentence {
+    display: none;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+  }
+/* Vector 7 */
+/* .vid{
+position: absolute;
+width: 644px;
+height: 743px;
+left: 980px;
+top: -215px;
+
+background: #FFBB00;
+opacity: 0.09;
+border-radius: 30px;
+} */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's on top of other elements */
+    background-color: #f9faff; /* Same as the header background color */
+  }
+  
+  body, .main-content {
+    padding-top: 80px; /* Adjust this value based on the height of your header */
+    overflow-y: scroll;
+    background-color: #F9F9F9;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+ 
+   
+    /* font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left; */
+    ;
+  }
+  .gridsp{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.78px;
+text-align: left;
+
+  }
+  .card-title{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24.2px;
+text-align: left;
+
+  }
+  .end-text{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color:  #605F5F;
+
+  }
+  .end-title{
+    font-family: Inter;
+font-size: 36px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color:  #605F5F;
+  }
+  
